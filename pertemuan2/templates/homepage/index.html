@@ -1,7 +1,19 @@
 {% extends 'homepage/layout.html' %}
-{% block title %} Homepage {% endblock %}
+{% block title %}
+  Homepage
+{% endblock %}
+
 {% block content %}
-<div class="hero bg-light p-5 rounded-lg m-3">
-<h1 class="display-4">Selamat Datang di Halaman Depan AIS</h1>
-</div>
+  {% load static %}
+
+  <body>
+    <div class="hero bg-light p-5 rounded-lg m-3">
+      <h1 class="display-4">Selamat Datang di Halaman Depan AIS</h1>
+    </div>
+
+    <div class="row justify-content-center">
+      <img src="{% static 'pertemuan2/images/bg.png' %}" alt="" />
+    </div>
+  </body>
+  
 {% endblock %}
