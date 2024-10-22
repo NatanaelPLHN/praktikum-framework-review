@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.hashers import make_password  # Untuk hashing password
 # Model untuk Teachers
-from .models.teacher import Teachers
+from .models.teachers import Teachers
 # Model untuk Students
 from .models.students import Students
 # Model untuk Users

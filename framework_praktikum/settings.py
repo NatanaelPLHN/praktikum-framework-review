@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "pertemuan2", #aplikasi kita (terlanjur beda namanya bang banyak yg perlu diganti jdi saya biarin hehe)
     "django_bootstrap5", #bootstrap
     "django_seed", #django seeder
+    'rest_framework', #django rest_framework
 ]
 
 MIDDLEWARE = [
